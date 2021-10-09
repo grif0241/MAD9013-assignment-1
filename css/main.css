@@ -1,0 +1,100 @@
+/*********************************************
+*** DEFAULT SETTINGS
+**********************************************/
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/*********************************************
+*** TYPOGRAPHY
+**********************************************/
+h1 {
+    font-weight:300;
+}
+
+.italic-style {
+    font-style: italic
+}
+
+.sans-serif {
+    font-family:sans-serif;
+}
+
+.paragraph-ht {
+    line-height: 1.4;
+}
+
+.intro-para {
+    font-size: 1.25rem;
+}
+
+.second-para {
+    font-size: 1.15rem;
+}
+
+.river-list{
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+/*********************************************
+*** CONTAINERS & POSITIONING
+**********************************************/
+.container {
+    width: 100%;
+    max-width: 45em;
+    padding: 1rem;
+}
+
+.center-block {
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 45em;
+    margin: 0;
+}
+
+header p { /* to shorten the distance between the h1 element and the subtext */
+    margin-top: 0.5rem;
+}
+
+.fig-cap {
+    padding: 1rem 0;
+}
+
+/* used to remove default margin and padding on figure tag to align the figure margin just inside the text margin */
+.main-figure {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0.5rem;
+}
+
+/*********************************************
+*** STYLING
+**********************************************/
+h1,
+h2 {
+    border-bottom: 0.5px darkgray solid;
+    margin-bottom: 0.5rem;
+}
+
+.remove-link-decoration {
+    text-decoration: none;
+    color: black;
+}
