@@ -9,6 +9,7 @@
 </head>
 <body>
     <main>
+        <!-- wrap all content in <article> as this is an article on a specific topic -->
         <header>
                 <div class="container center-block">
                 <h1>
@@ -16,7 +17,7 @@
                 </h1>
                 <p class="sans-serif" >From Wikipedia, the free encyclopedia</p>
                 <figure class="center-text main-figure sans-serif" >
-                    <img class="main-img" src="./images/Algonquin_Cache_Lake_Lookout.jpeg" alt="Landscape photo of Algonquin Provincial Park">
+                    <img class="main-img" src="./images/Algonquin_Cache_Lake_Lookout.jpeg" alt="Landscape photo of Algonquin Provincial Park"><!-- `alt` should be left empty when you have a <figcaption> as it describes the image -->
                     <figcaption class="fig-cap">By Original uploader was Ptrbnsn at en.wikipedia - Transferred from en.wikipedia, CC BY-SA 3.0,
                         <a href="https://commons.wikimedia.org/w/index.php?curid=10740912" target="_blank">https://commons.wikimedia.org/w/index.php?curid=10740912</a></figcaption>
                 </figure>
@@ -59,11 +60,14 @@
                     </ol>
                 </div>
             </section>
+            <!-- put <footer> here -->
+        <!-- end </article> -->
     </main>
-        <footer>
+        <footer><!-- move footer into <article> -->
             <div class="container center-block">
                 <h2>References</h2>
                 <ol class="italic-style sans-serif">
+                    <!-- Text content in the <li> should also be wrapped in a <cite> as it is a citation -->
                     <li id="source-one"><a href="https://en.wikipedia.org/wiki/Algonquin_Provincial_Park#cite_ref-pressrelease_1-0" target="_blank">^</a> <a href="https://web.archive.org/web/20190703152455/https:/news.ontario.ca/mnr/fr/2009/11/le-parc-provincial-algonquin.html" target="_blank">"Le parc provincial Algonquin".</a> Government of Ontario (in French). 2009-11-02. Archived from the
                         original on 2019-07-03. Retrieved 2019-07-03.</li>
                     <li id="source-two"><a href="https://en.wikipedia.org/wiki/Algonquin_Provincial_Park#cite_ref-2" target="_blank">^</a> <a href="https://www.algonquinpark.on.ca/visit/general_park_info/faqs.php" target="_blank">"Frequently Asked Questions (FAQ's) | Algonquin Provincial Park | The Friends of Algonquin
